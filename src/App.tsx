@@ -1,26 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import ConfigPanel from "./components/ConfigPanel";
+import { solve, emblems as initialEmblems } from "./solver/solver";
 
-function App() {
+export default function App() {
+  const emblemNames = Object.keys(initialEmblems);
+  const [config, setConfig] = useState<{ emblems: Record<string, number>; maxCost: number; maxSize: number }>({
+    emblems: initialEmblems,
+    maxCost: 3,
+    maxSize: 7,
+  });
+  const [results, setResults] = useState<{ subset: string; solution: string[] }[]>([]);
+
+  const handleSolve = () => {
+    const res = solve(config.emblems, config.maxCost, config.maxSize);
+    setResults(res);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ padding: "20px", fontFamily: "sans-serif" }}>
+      <ConfigPanel
+        emblems={emblemNames}
+        initialMaxCost={config.maxCost}
+        initialMaxSize={config.maxSize}
+        onChange={(c) => setConfig(c)}
+      />
+
+      <button onClick={handleSolve} style={{ marginBottom: "20px", padding: "8px 15px" }}>
+        Solve
+      </button>
+
+      <div>
+        {results.map((r, i) => (
+          <div key={i} style={{ marginBottom: "10px" }}>
+            <strong>{r.subset}</strong>: {r.solution.join(", ")}
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
-
-export default App;

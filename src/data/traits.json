@@ -1,0 +1,320 @@
+[
+    {
+        "name": "Poison Pals",
+        "thresholds": [2],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Ascendant",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Freljord",
+        "thresholds": [3, 5, 7],
+        "isRegion": true,
+        "hasEmblem": true
+    },
+    {
+        "name": "Juggernaut",
+        "thresholds": [2, 4, 6],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Quickstriker",
+        "thresholds": [2, 3, 4, 5],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Longshot",
+        "thresholds": [2, 3, 4, 5],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Vanquisher",
+        "thresholds": [2, 3, 4, 5],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Caretaker",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Ixtal",
+        "thresholds": [3, 5, 7],
+        "isRegion": true,
+        "hasEmblem": true
+    },
+    {
+        "name": "Slayer",
+        "thresholds": [2, 4, 6],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Arcanist",
+        "thresholds": [2, 4, 6],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Emperor",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Star Forger",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Dragonborn",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Gunslinger",
+        "thresholds": [2, 4],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "HexMech",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Chosen Wolves",
+        "thresholds": [2],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Chainbreaker",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Soulbound",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Piltover",
+        "thresholds": [2, 4, 6],
+        "isRegion": true,
+        "hasEmblem": true
+    },
+    {
+        "name": "Timewinders",
+        "thresholds": [1, 2],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Darkin",
+        "thresholds": [1, 2, 3],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Eternal",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Dark Child",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "World Ender",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Assimilator",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Dragonguards",
+        "thresholds": [2],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Disruptor",
+        "thresholds": [2, 4],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Void",
+        "thresholds": [2, 4, 6, 9],
+        "isRegion": true,
+        "hasEmblem": true
+    },
+    {
+        "name": "Rune Mage",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "The Boss",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Glutton",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Invoker",
+        "thresholds": [2, 4],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Demacia",
+        "thresholds": [3, 5, 7, 11],
+        "isRegion": true,
+        "hasEmblem": true
+    },
+    {
+        "name": "Bilgewater",
+        "thresholds": [3, 5, 7, 10],
+        "isRegion": true,
+        "hasEmblem": true
+    },
+    {
+        "name": "Riftscourge",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Targon",
+        "thresholds": [1],
+        "isRegion": true,
+        "hasEmblem": false
+    },
+    {
+        "name": "Shurima",
+        "thresholds": [2, 3, 4],
+        "isRegion": true,
+        "hasEmblem": false
+    },
+    {
+        "name": "Blacksmith",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Shadow Isles",
+        "thresholds": [2, 3, 4, 5],
+        "isRegion": true,
+        "hasEmblem": false
+    },
+    {
+        "name": "Harvester",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Immortal",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Heroic",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Noxus",
+        "thresholds": [3, 5, 7, 10],
+        "isRegion": true,
+        "hasEmblem": true
+    },
+    {
+        "name": "Yordle",
+        "thresholds": [2, 4, 6, 8, 10],
+        "isRegion": true,
+        "hasEmblem": true
+    },
+    {
+        "name": "Zaun",
+        "thresholds": [3, 5, 7],
+        "isRegion": true,
+        "hasEmblem": true
+    },
+    {
+        "name": "Bruiser",
+        "thresholds": [2, 4, 6],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Chronokeeper",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Warden",
+        "thresholds": [2, 3, 4, 5],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Ionia",
+        "thresholds": [3, 5, 7, 10],
+        "isRegion": true,
+        "hasEmblem": true
+    },
+    {
+        "name": "Defender",
+        "thresholds": [2, 4, 6],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Sentinels of Light",
+        "thresholds": [2],
+        "isRegion": false,
+        "hasEmblem": false
+    },
+    {
+        "name": "Huntress",
+        "thresholds": [1],
+        "isRegion": false,
+        "hasEmblem": false
+    }
+]

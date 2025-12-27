@@ -1,0 +1,1018 @@
+[
+    {
+        "apiName": "TFT16_Tristana",
+        "characterName": "TFT16_Tristana",
+        "name": "Tristana",
+        "cost": 2,
+        "traits": [
+            "Yordle",
+            "Gunslinger"
+        ]
+    },
+    {
+        "apiName": "TFT16_Lulu",
+        "characterName": "TFT16_Lulu",
+        "name": "Lulu",
+        "cost": 1,
+        "traits": [
+            "Yordle",
+            "Arcanist"
+        ]
+    },
+    {
+        "apiName": "TFT16_Teemo",
+        "characterName": "TFT16_Teemo",
+        "name": "Teemo",
+        "cost": 2,
+        "traits": [
+            "Yordle",
+            "Longshot"
+        ]
+    },
+    {
+        "apiName": "TFT16_Rumble",
+        "characterName": "TFT16_Rumble",
+        "name": "Rumble",
+        "cost": 1,
+        "traits": [
+            "Yordle",
+            "Defender"
+        ]
+    },
+    {
+        "apiName": "TFT16_Nautilus",
+        "characterName": "TFT16_Nautilus",
+        "name": "Nautilus",
+        "cost": 3,
+        "traits": [
+            "Bilgewater",
+            "Juggernaut",
+            "Warden"
+        ]
+    },
+    {
+        "apiName": "TFT16_TwistedFate",
+        "characterName": "TFT16_TwistedFate",
+        "name": "Twisted Fate",
+        "cost": 2,
+        "traits": [
+            "Bilgewater",
+            "Quickstriker"
+        ]
+    },
+    {
+        "apiName": "TFT16_Gangplank",
+        "characterName": "TFT16_Gangplank",
+        "name": "Gangplank",
+        "cost": 3,
+        "traits": [
+            "Bilgewater",
+            "Slayer",
+            "Vanquisher"
+        ]
+    },
+    {
+        "apiName": "TFT16_Illaoi",
+        "characterName": "TFT16_Illaoi",
+        "name": "Illaoi",
+        "cost": 1,
+        "traits": [
+            "Bilgewater",
+            "Bruiser"
+        ]
+    },
+    {
+        "apiName": "TFT16_MissFortune",
+        "characterName": "TFT16_MissFortune",
+        "name": "Miss Fortune",
+        "cost": 4,
+        "traits": [
+            "Bilgewater",
+            "Gunslinger"
+        ]
+    },
+    {
+        "apiName": "TFT16_Sion",
+        "characterName": "TFT16_Sion",
+        "name": "Sion",
+        "cost": 2,
+        "traits": [
+            "Noxus",
+            "Bruiser"
+        ]
+    },
+    {
+        "apiName": "TFT16_Briar",
+        "characterName": "TFT16_Briar",
+        "name": "Briar",
+        "cost": 1,
+        "traits": [
+            "Noxus",
+            "Slayer",
+            "Juggernaut"
+        ]
+    },
+    {
+        "apiName": "TFT16_Draven",
+        "characterName": "TFT16_Draven",
+        "name": "Draven",
+        "cost": 3,
+        "traits": [
+            "Noxus",
+            "Quickstriker"
+        ]
+    },
+    {
+        "apiName": "TFT16_Ambessa",
+        "characterName": "TFT16_Ambessa",
+        "name": "Ambessa",
+        "cost": 4,
+        "traits": [
+            "Noxus",
+            "Vanquisher"
+        ]
+    },
+    {
+        "apiName": "TFT16_Zoe",
+        "characterName": "TFT16_Zoe",
+        "name": "Zoe",
+        "cost": 3,
+        "traits": [
+            "Targon"
+        ]
+    },
+    {
+        "apiName": "TFT16_Leona",
+        "characterName": "TFT16_Leona",
+        "name": "Leona",
+        "cost": 3,
+        "traits": [
+            "Targon"
+        ]
+    },
+    {
+        "apiName": "TFT16_Aphelios",
+        "characterName": "TFT16_Aphelios",
+        "name": "Aphelios",
+        "cost": 2,
+        "traits": [
+            "Targon"
+        ]
+    },
+    {
+        "apiName": "TFT16_Taric",
+        "characterName": "TFT16_Taric",
+        "name": "Taric",
+        "cost": 4,
+        "traits": [
+            "Targon"
+        ]
+    },
+    {
+        "apiName": "TFT16_JarvanIV",
+        "characterName": "TFT16_JarvanIV",
+        "name": "Jarvan IV",
+        "cost": 1,
+        "traits": [
+            "Demacia",
+            "Defender"
+        ]
+    },
+    {
+        "apiName": "TFT16_Sona",
+        "characterName": "TFT16_Sona",
+        "name": "Sona",
+        "cost": 1,
+        "traits": [
+            "Demacia",
+            "Invoker"
+        ]
+    },
+    {
+        "apiName": "TFT16_Garen",
+        "characterName": "TFT16_Garen",
+        "name": "Garen",
+        "cost": 4,
+        "traits": [
+            "Demacia",
+            "Defender"
+        ]
+    },
+    {
+        "apiName": "TFT16_Lux",
+        "characterName": "TFT16_Lux",
+        "name": "Lux",
+        "cost": 4,
+        "traits": [
+            "Demacia",
+            "Arcanist"
+        ]
+    },
+    {
+        "apiName": "TFT16_Anivia",
+        "characterName": "TFT16_Anivia",
+        "name": "Anivia",
+        "cost": 1,
+        "traits": [
+            "Freljord",
+            "Invoker"
+        ]
+    },
+    {
+        "apiName": "TFT16_Ashe",
+        "characterName": "TFT16_Ashe",
+        "name": "Ashe",
+        "cost": 2,
+        "traits": [
+            "Freljord",
+            "Quickstriker"
+        ]
+    },
+    {
+        "apiName": "TFT16_Braum",
+        "characterName": "TFT16_Braum",
+        "name": "Braum",
+        "cost": 4,
+        "traits": [
+            "Freljord",
+            "Warden"
+        ]
+    },
+    {
+        "apiName": "TFT16_Lissandra",
+        "characterName": "TFT16_Lissandra",
+        "name": "Lissandra",
+        "cost": 4,
+        "traits": [
+            "Freljord",
+            "Invoker"
+        ]
+    },
+    {
+        "apiName": "TFT16_Milio",
+        "characterName": "TFT16_Milio",
+        "name": "Milio",
+        "cost": 3,
+        "traits": [
+            "Ixtal",
+            "Invoker"
+        ]
+    },
+    {
+        "apiName": "TFT16_Neeko",
+        "characterName": "TFT16_Neeko",
+        "name": "Neeko",
+        "cost": 2,
+        "traits": [
+            "Ixtal",
+            "Arcanist",
+            "Defender"
+        ]
+    },
+    {
+        "apiName": "TFT16_Jinx",
+        "characterName": "TFT16_Jinx",
+        "name": "Jinx",
+        "cost": 3,
+        "traits": [
+            "Zaun",
+            "Gunslinger"
+        ]
+    },
+    {
+        "apiName": "TFT16_Caitlyn",
+        "characterName": "TFT16_Caitlyn",
+        "name": "Caitlyn",
+        "cost": 1,
+        "traits": [
+            "Piltover",
+            "Longshot"
+        ]
+    },
+    {
+        "apiName": "TFT16_Vi",
+        "characterName": "TFT16_Vi",
+        "name": "Vi",
+        "cost": 2,
+        "traits": [
+            "Piltover",
+            "Zaun",
+            "Defender"
+        ]
+    },
+    {
+        "apiName": "TFT16_Seraphine",
+        "characterName": "TFT16_Seraphine",
+        "name": "Seraphine",
+        "cost": 4,
+        "traits": [
+            "Piltover",
+            "Disruptor"
+        ]
+    },
+    {
+        "apiName": "TFT16_Yasuo",
+        "characterName": "TFT16_Yasuo",
+        "name": "Yasuo",
+        "cost": 2,
+        "traits": [
+            "Ionia",
+            "Slayer"
+        ]
+    },
+    {
+        "apiName": "TFT16_Ahri",
+        "characterName": "TFT16_Ahri",
+        "name": "Ahri",
+        "cost": 3,
+        "traits": [
+            "Ionia",
+            "Arcanist"
+        ]
+    },
+    {
+        "apiName": "TFT16_Wukong",
+        "characterName": "TFT16_Wukong",
+        "name": "Wukong",
+        "cost": 4,
+        "traits": [
+            "Ionia",
+            "Bruiser"
+        ]
+    },
+    {
+        "apiName": "TFT16_Shen",
+        "characterName": "TFT16_Shen",
+        "name": "Shen",
+        "cost": 1,
+        "traits": [
+            "Ionia",
+            "Bruiser"
+        ]
+    },
+    {
+        "apiName": "TFT16_Malzahar",
+        "characterName": "TFT16_Malzahar",
+        "name": "Malzahar",
+        "cost": 3,
+        "traits": [
+            "Void",
+            "Disruptor"
+        ]
+    },
+    {
+        "apiName": "TFT16_RekSai",
+        "characterName": "TFT16_RekSai",
+        "name": "Rek'Sai",
+        "cost": 2,
+        "traits": [
+            "Void",
+            "Vanquisher"
+        ]
+    },
+    {
+        "apiName": "TFT16_ChoGath",
+        "characterName": "TFT16_ChoGath",
+        "name": "Cho'Gath",
+        "cost": 2,
+        "traits": [
+            "Void",
+            "Juggernaut"
+        ]
+    },
+    {
+        "apiName": "TFT16_KogMaw",
+        "characterName": "TFT16_KogMaw",
+        "name": "Kog'Maw",
+        "cost": 1,
+        "traits": [
+            "Void",
+            "Arcanist",
+            "Longshot"
+        ]
+    },
+    {
+        "apiName": "TFT16_Annie",
+        "characterName": "TFT16_Annie",
+        "name": "Annie",
+        "cost": 5,
+        "traits": [
+            "Dark Child",
+            "Arcanist"
+        ]
+    },
+    {
+        "apiName": "TFT16_Ornn",
+        "characterName": "TFT16_Ornn",
+        "name": "Ornn",
+        "cost": 5,
+        "traits": [
+            "Blacksmith",
+            "Warden"
+        ]
+    },
+    {
+        "apiName": "TFT16_Kindred",
+        "characterName": "TFT16_Kindred",
+        "name": "Kindred",
+        "cost": 5,
+        "traits": [
+            "Eternal",
+            "Quickstriker"
+        ]
+    },
+    {
+        "apiName": "TFT16_Azir",
+        "characterName": "TFT16_Azir",
+        "name": "Azir",
+        "cost": 5,
+        "traits": [
+            "Shurima",
+            "Emperor",
+            "Disruptor"
+        ]
+    },
+    {
+        "apiName": "TFT16_Zilean",
+        "characterName": "TFT16_Zilean",
+        "name": "Zilean",
+        "cost": 5,
+        "traits": [
+            "Chronokeeper",
+            "Invoker"
+        ]
+    },
+    {
+        "apiName": "TFT16_Fiddlesticks",
+        "characterName": "TFT16_Fiddlesticks",
+        "name": "Fiddlesticks",
+        "cost": 5,
+        "traits": [
+            "Harvester",
+            "Vanquisher"
+        ]
+    },
+    {
+        "apiName": "TFT16_Shyvana",
+        "characterName": "TFT16_Shyvana",
+        "name": "Shyvana",
+        "cost": 5,
+        "traits": [
+            "Dragonborn",
+            "Juggernaut"
+        ]
+    },
+    {
+        "apiName": "TFT16_Galio",
+        "characterName": "TFT16_Galio",
+        "name": "Galio",
+        "cost": 5,
+        "traits": [
+            "Demacia",
+            "Heroic"
+        ]
+    },
+    {
+        "apiName": "TFT16_TahmKench",
+        "characterName": "TFT16_TahmKench",
+        "name": "Tahm Kench",
+        "cost": 5,
+        "traits": [
+            "Bilgewater",
+            "Glutton",
+            "Bruiser"
+        ]
+    },
+    {
+        "apiName": "TFT16_Sejuani",
+        "characterName": "TFT16_Sejuani",
+        "name": "Sejuani",
+        "cost": 3,
+        "traits": [
+            "Freljord",
+            "Defender"
+        ]
+    },
+    {
+        "apiName": "TFT16_Sett",
+        "characterName": "TFT16_Sett",
+        "name": "Sett",
+        "cost": 5,
+        "traits": [
+            "Ionia",
+            "The Boss"
+        ]
+    },
+    {
+        "apiName": "TFT16_Brock",
+        "characterName": "TFT16_Brock",
+        "name": "Brock",
+        "cost": 5,
+        "traits": [
+            "Ixtal"
+        ]
+    },
+    {
+        "apiName": "TFT16_THex",
+        "characterName": "TFT16_THex",
+        "name": "T-Hex",
+        "cost": 5,
+        "traits": [
+            "HexMech",
+            "Piltover",
+            "Gunslinger"
+        ]
+    },
+    {
+        "apiName": "TFT16_BelVeth",
+        "characterName": "TFT16_BelVeth",
+        "name": "Bel'Veth",
+        "cost": 4,
+        "traits": [
+            "Void",
+            "Slayer"
+        ]
+    },
+    {
+        "apiName": "TFT16_Singed",
+        "characterName": "TFT16_Singed",
+        "name": "Singed",
+        "cost": 4,
+        "traits": [
+            "Zaun",
+            "Juggernaut"
+        ]
+    },
+    {
+        "apiName": "TFT16_AurelionSol",
+        "characterName": "TFT16_AurelionSol",
+        "name": "Aurelion Sol",
+        "cost": 5,
+        "traits": [
+            "Star Forger",
+            "Targon"
+        ]
+    },
+    {
+        "apiName": "TFT16_Veigar",
+        "characterName": "TFT16_Veigar",
+        "name": "Veigar",
+        "cost": 4,
+        "traits": [
+            "Yordle",
+            "Arcanist"
+        ]
+    },
+    {
+        "apiName": "TFT16_BaronNashor",
+        "characterName": "TFT16_BaronNashor",
+        "name": "Baron Nashor",
+        "cost": 5,
+        "traits": [
+            "Void",
+            "Riftscourge"
+        ]
+    },
+    {
+        "apiName": "TFT16_Darius",
+        "characterName": "TFT16_Darius",
+        "name": "Darius",
+        "cost": 3,
+        "traits": [
+            "Noxus",
+            "Defender"
+        ]
+    },
+    {
+        "apiName": "TFT16_Yone",
+        "characterName": "TFT16_Yone",
+        "name": "Yone",
+        "cost": 4,
+        "traits": [
+            "Ionia",
+            "Slayer"
+        ]
+    },
+    {
+        "apiName": "TFT16_Warwick",
+        "characterName": "TFT16_Warwick",
+        "name": "Warwick",
+        "cost": 4,
+        "traits": [
+            "Zaun",
+            "Quickstriker"
+        ]
+    },
+    {
+        "apiName": "TFT16_Fizz",
+        "characterName": "TFT16_Fizz",
+        "name": "Fizz",
+        "cost": 4,
+        "traits": [
+            "Bilgewater",
+            "Yordle"
+        ]
+    },
+    {
+        "apiName": "TFT16_Poppy",
+        "characterName": "TFT16_Poppy",
+        "name": "Poppy ",
+        "cost": 2,
+        "traits": [
+            "Demacia",
+            "Yordle",
+            "Juggernaut"
+        ]
+    },
+    {
+        "apiName": "TFT16_Kennen",
+        "characterName": "TFT16_Kennen",
+        "name": "Kennen ",
+        "cost": 3,
+        "traits": [
+            "Ionia",
+            "Yordle",
+            "Defender"
+        ]
+    },
+    {
+        "apiName": "TFT16_Ziggs",
+        "characterName": "TFT16_Ziggs",
+        "name": "Ziggs ",
+        "cost": 5,
+        "traits": [
+            "Zaun",
+            "Yordle",
+            "Longshot"
+        ]
+    },
+    {
+        "apiName": "TFT16_Aatrox",
+        "characterName": "TFT16_Aatrox",
+        "name": "Aatrox ",
+        "cost": 5,
+        "traits": [
+            "Darkin",
+            "World Ender",
+            "Slayer"
+        ]
+    },
+    {
+        "apiName": "TFT16_Volibear",
+        "characterName": "TFT16_Volibear",
+        "name": "Volibear ",
+        "cost": 5,
+        "traits": [
+            "Freljord",
+            "Bruiser"
+        ]
+    },
+    {
+        "apiName": "TFT16_Jhin",
+        "characterName": "TFT16_Jhin",
+        "name": "Jhin",
+        "cost": 1,
+        "traits": [
+            "Ionia",
+            "Gunslinger"
+        ]
+    },
+    {
+        "apiName": "TFT16_Sylas",
+        "characterName": "TFT16_Sylas",
+        "name": "Sylas ",
+        "cost": 5,
+        "traits": [
+            "Chainbreaker",
+            "Arcanist",
+            "Defender"
+        ]
+    },
+    {
+        "apiName": "TFT16_Ryze",
+        "characterName": "TFT16_Ryze",
+        "name": "Ryze ",
+        "cost": 5,
+        "traits": [
+            "Rune Mage"
+        ]
+    },
+    {
+        "apiName": "TFT16_Nidalee",
+        "characterName": "TFT16_Nidalee",
+        "name": "Nidalee ",
+        "cost": 4,
+        "traits": [
+            "Ixtal",
+            "Huntress"
+        ]
+    },
+    {
+        "apiName": "TFT16_Tryndamere",
+        "characterName": "TFT16_Tryndamere",
+        "name": "Tryndamere ",
+        "cost": 2,
+        "traits": [
+            "Freljord",
+            "Slayer"
+        ]
+    },
+    {
+        "apiName": "TFT16_RiftHerald",
+        "characterName": "TFT16_RiftHerald",
+        "name": "Rift Herald ",
+        "cost": 4,
+        "traits": [
+            "Void",
+            "Bruiser"
+        ]
+    },
+    {
+        "apiName": "TFT16_Mel",
+        "characterName": "TFT16_Mel",
+        "name": "Mel ",
+        "cost": 5,
+        "traits": [
+            "Noxus",
+            "Disruptor"
+        ]
+    },
+    {
+        "apiName": "TFT16_Graves",
+        "characterName": "TFT16_Graves",
+        "name": "Graves ",
+        "cost": 2,
+        "traits": [
+            "Bilgewater",
+            "Gunslinger"
+        ]
+    },
+    {
+        "apiName": "TFT16_Skarner",
+        "characterName": "TFT16_Skarner",
+        "name": "Skarner ",
+        "cost": 4,
+        "traits": [
+            "Ixtal"
+        ]
+    },
+    {
+        "apiName": "TFT16_Diana",
+        "characterName": "TFT16_Diana",
+        "name": "Diana ",
+        "cost": 4,
+        "traits": [
+            "Targon"
+        ]
+    },
+    {
+        "apiName": "TFT16_Kaisa",
+        "characterName": "TFT16_Kaisa",
+        "name": "Kai'Sa ",
+        "cost": 4,
+        "traits": [
+            "Assimilator",
+            "Void",
+            "Longshot"
+        ]
+    },
+    {
+        "apiName": "TFT16_Renekton",
+        "characterName": "TFT16_Renekton",
+        "name": "Renekton ",
+        "cost": 4,
+        "traits": [
+            "Shurima"
+        ]
+    },
+    {
+        "apiName": "TFT16_Nasus",
+        "characterName": "TFT16_Nasus",
+        "name": "Nasus ",
+        "cost": 4,
+        "traits": [
+            "Shurima"
+        ]
+    },
+    {
+        "apiName": "TFT16_Xerath",
+        "characterName": "TFT16_Xerath",
+        "name": "Xerath ",
+        "cost": 5,
+        "traits": [
+            "Shurima",
+            "Ascendant"
+        ]
+    },
+    {
+        "apiName": "TFT16_Thresh",
+        "characterName": "TFT16_Thresh",
+        "name": "Thresh ",
+        "cost": 5,
+        "traits": [
+            "Shadow Isles",
+            "Warden"
+        ]
+    },
+    {
+        "apiName": "TFT16_Gwen",
+        "characterName": "TFT16_Gwen",
+        "name": "Gwen ",
+        "cost": 3,
+        "traits": [
+            "Shadow Isles",
+            "Disruptor"
+        ]
+    },
+    {
+        "apiName": "TFT16_Kalista",
+        "characterName": "TFT16_Kalista",
+        "name": "Kalista ",
+        "cost": 4,
+        "traits": [
+            "Shadow Isles",
+            "Vanquisher"
+        ]
+    },
+    {
+        "apiName": "TFT16_Leblanc",
+        "characterName": "TFT16_Leblanc",
+        "name": "LeBlanc ",
+        "cost": 3,
+        "traits": [
+            "Noxus",
+            "Invoker"
+        ]
+    },
+    {
+        "apiName": "TFT16_Viego",
+        "characterName": "TFT16_Viego",
+        "name": "Viego",
+        "cost": 1,
+        "traits": [
+            "Shadow Isles",
+            "Quickstriker"
+        ]
+    },
+    {
+        "apiName": "TFT16_Ekko",
+        "characterName": "TFT16_Ekko",
+        "name": "Ekko",
+        "cost": 2,
+        "traits": [
+            "Zaun",
+            "Disruptor"
+        ]
+    },
+    {
+        "apiName": "TFT16_Bard",
+        "characterName": "TFT16_Bard",
+        "name": "Bard ",
+        "cost": 2,
+        "traits": [
+            "Caretaker"
+        ]
+    },
+    {
+        "apiName": "TFT16_Vayne",
+        "characterName": "TFT16_Vayne",
+        "name": "Vayne",
+        "cost": 3,
+        "traits": [
+            "Demacia",
+            "Longshot"
+        ]
+    },
+    {
+        "apiName": "TFT16_Yunara",
+        "characterName": "TFT16_Yunara",
+        "name": "Yunara",
+        "cost": 4,
+        "traits": [
+            "Ionia",
+            "Quickstriker"
+        ]
+    },
+    {
+        "apiName": "TFT16_Swain",
+        "characterName": "TFT16_Swain",
+        "name": "Swain",
+        "cost": 4,
+        "traits": [
+            "Noxus",
+            "Arcanist",
+            "Juggernaut"
+        ]
+    },
+    {
+        "apiName": "TFT16_XinZhao",
+        "characterName": "TFT16_XinZhao",
+        "name": "Xin Zhao",
+        "cost": 2,
+        "traits": [
+            "Demacia",
+            "Ionia",
+            "Warden"
+        ]
+    },
+    {
+        "apiName": "TFT16_Yorick",
+        "characterName": "TFT16_Yorick",
+        "name": "Yorick ",
+        "cost": 2,
+        "traits": [
+            "Shadow Isles",
+            "Warden"
+        ]
+    },
+    {
+        "apiName": "TFT16_Orianna",
+        "characterName": "TFT16_Orianna",
+        "name": "Orianna ",
+        "cost": 2,
+        "traits": [
+            "Piltover",
+            "Invoker"
+        ]
+    },
+    {
+        "apiName": "TFT16_Qiyana",
+        "characterName": "TFT16_Qiyana",
+        "name": "Qiyana",
+        "cost": 1,
+        "traits": [
+            "Ixtal",
+            "Slayer"
+        ]
+    },
+    {
+        "apiName": "TFT16_Loris",
+        "characterName": "TFT16_Loris",
+        "name": "Loris",
+        "cost": 3,
+        "traits": [
+            "Piltover",
+            "Warden"
+        ]
+    },
+    {
+        "apiName": "TFT16_Blitzcrank",
+        "characterName": "TFT16_Blitzcrank",
+        "name": "Blitzcrank",
+        "cost": 1,
+        "traits": [
+            "Zaun",
+            "Juggernaut"
+        ]
+    },
+    {
+        "apiName": "TFT16_DrMundo",
+        "characterName": "TFT16_DrMundo",
+        "name": "Dr. Mundo",
+        "cost": 3,
+        "traits": [
+            "Zaun",
+            "Bruiser"
+        ]
+    },
+    {
+        "apiName": "TFT16_Zaahen",
+        "characterName": "TFT16_Zaahen",
+        "name": "Zaahen",
+        "cost": 5,
+        "traits": [
+            "Darkin",
+            "Immortal"
+        ]
+    },
+    {
+        "apiName": "TFT16_AnnieTibbers",
+        "characterName": "TFT16_AnnieTibbers",
+        "name": "Tibbers",
+        "cost": 11,
+        "traits": [
+            "Arcanist"
+        ]
+    },
+    {
+        "apiName": "TFT16_Lucian",
+        "characterName": "TFT16_Lucian",
+        "name": "Lucian & Senna",
+        "cost": 5,
+        "traits": [
+            "Soulbound",
+            "Gunslinger"
+        ]
+    },
+    {
+        "apiName": "TFT16_Kobuko",
+        "characterName": "TFT16_Kobuko",
+        "name": "Kobuko & Yuumi",
+        "cost": 3,
+        "traits": [
+            "Yordle",
+            "Bruiser",
+            "Invoker"
+        ]
+    }
+]
