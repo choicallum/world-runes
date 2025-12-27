@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/world-runes/static/css/main.3e3c5bf2.css",
-    "main.js": "/world-runes/static/js/main.98a8514c.js",
+    "main.js": "/world-runes/static/js/main.32a3af9b.js",
     "static/js/453.a16e9f5c.chunk.js": "/world-runes/static/js/453.a16e9f5c.chunk.js",
     "index.html": "/world-runes/index.html",
     "main.3e3c5bf2.css.map": "/world-runes/static/css/main.3e3c5bf2.css.map",
-    "main.98a8514c.js.map": "/world-runes/static/js/main.98a8514c.js.map",
+    "main.32a3af9b.js.map": "/world-runes/static/js/main.32a3af9b.js.map",
     "453.a16e9f5c.chunk.js.map": "/world-runes/static/js/453.a16e9f5c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e3c5bf2.css",
-    "static/js/main.98a8514c.js"
+    "static/js/main.32a3af9b.js"
   ]
 }
