@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/world-runes/static/css/main.3e3c5bf2.css",
-    "main.js": "/world-runes/static/js/main.3726e08a.js",
+    "main.css": "/world-runes/static/css/main.4f5ea861.css",
+    "main.js": "/world-runes/static/js/main.d8ebf370.js",
     "static/js/453.a16e9f5c.chunk.js": "/world-runes/static/js/453.a16e9f5c.chunk.js",
+    "static/media/ryze_background.jpg": "/world-runes/static/media/ryze_background.95c0976ed01a8374309d.jpg",
     "index.html": "/world-runes/index.html",
-    "main.3e3c5bf2.css.map": "/world-runes/static/css/main.3e3c5bf2.css.map",
-    "main.3726e08a.js.map": "/world-runes/static/js/main.3726e08a.js.map",
+    "main.4f5ea861.css.map": "/world-runes/static/css/main.4f5ea861.css.map",
+    "main.d8ebf370.js.map": "/world-runes/static/js/main.d8ebf370.js.map",
     "453.a16e9f5c.chunk.js.map": "/world-runes/static/js/453.a16e9f5c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e3c5bf2.css",
-    "static/js/main.3726e08a.js"
+    "static/css/main.4f5ea861.css",
+    "static/js/main.d8ebf370.js"
   ]
 }
