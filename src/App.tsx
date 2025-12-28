@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ConfigPanel from "./components/ConfigPanel";
+import ResultsList from "./components/ResultsList";
 import { solve, emblems as initialEmblems } from "./solver/solver";
 
 export default function App() {
@@ -23,19 +24,10 @@ export default function App() {
         initialMaxCost={config.maxCost}
         initialMaxSize={config.maxSize}
         onChange={(c) => setConfig(c)}
+        onSolve={handleSolve}
       />
 
-      <button onClick={handleSolve} style={{ marginBottom: "20px", padding: "8px 15px" }}>
-        Solve
-      </button>
-
-      <div>
-        {results.map((r, i) => (
-          <div key={i} style={{ marginBottom: "10px" }}>
-            <strong>{r.subset}</strong>: {r.solution.join(", ")}
-          </div>
-        ))}
-      </div>
+      <ResultsList results={results} />
     </div>
   );
 }

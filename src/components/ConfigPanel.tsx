@@ -4,15 +4,34 @@ interface ConfigPanelProps {
   emblems: string[];
   initialMaxCost: number;
   initialMaxSize: number;
-  onChange: Dispatch<SetStateAction<{ emblems: Record<string, number>; maxCost: number; maxSize: number; }>>;
+  onChange: Dispatch<
+    SetStateAction<{
+      emblems: Record<string, number>;
+      maxCost: number;
+      maxSize: number;
+    }>
+  >;
+  onSolve: () => void;
 }
 
-export default function ConfigPanel({ emblems, initialMaxCost, initialMaxSize, onChange }: ConfigPanelProps) {
+export default function ConfigPanel({
+  emblems,
+  initialMaxCost,
+  initialMaxSize,
+  onChange,
+  onSolve,
+}: ConfigPanelProps) {
   const [selectedEmblems, setSelectedEmblems] = useState<Record<string, number>>(
-    Object.fromEntries(emblems.map(e => [e, 0]))
+    Object.fromEntries(emblems.map((e) => [e, 0]))
   );
+
+  // numeric state
   const [maxCost, setMaxCost] = useState(initialMaxCost);
   const [maxSize, setMaxSize] = useState(initialMaxSize);
+
+  // string input state (allows empty)
+  const [maxCostInput, setMaxCostInput] = useState(String(initialMaxCost));
+  const [maxSizeInput, setMaxSizeInput] = useState(String(initialMaxSize));
 
   const updateEmblem = (name: string, value: number) => {
     const updated = { ...selectedEmblems, [name]: Math.max(0, value) };
@@ -20,19 +39,32 @@ export default function ConfigPanel({ emblems, initialMaxCost, initialMaxSize, o
     onChange({ emblems: updated, maxCost, maxSize });
   };
 
-  const updateMaxCost = (value: number) => {
-    const cost = Math.min(Math.max(1, value), 5);
+  const updateMaxCost = (value: string) => {
+    setMaxCostInput(value);
+    if (value === "") return;
+
+    const cost = Math.min(Math.max(1, parseInt(value, 10)), 5);
     setMaxCost(cost);
-    onChange({ emblems: selectedEmblems, maxCost: cost, maxSize});
+    onChange({ emblems: selectedEmblems, maxCost: cost, maxSize });
   };
 
-  const updateMaxSize = (value: number) => {
-    const size = Math.min(Math.max(1, value), 10);
+  const updateMaxSize = (value: string) => {
+    setMaxSizeInput(value);
+    if (value === "") return;
+
+    const size = Math.min(Math.max(1, parseInt(value, 10)), 10);
     setMaxSize(size);
     onChange({ emblems: selectedEmblems, maxCost, maxSize: size });
   };
 
- return (
+  const parsedCost = maxCostInput === "" ? NaN : parseInt(maxCostInput, 10);
+  const parsedSize = maxSizeInput === "" ? NaN : parseInt(maxSizeInput, 10);
+
+  const invalidCost = Number.isNaN(parsedCost) || parsedCost <= 0 || parsedCost > 5;
+  const invalidSize = Number.isNaN(parsedSize) || parsedSize <= 0 || parsedSize >= 11;
+  const isSolveDisabled = invalidCost || invalidSize;
+
+  return (
     <div
       style={{
         display: "flex",
@@ -64,51 +96,107 @@ export default function ConfigPanel({ emblems, initialMaxCost, initialMaxSize, o
             }}
           >
             <img
-              src={`/assets/traits/${e.toLowerCase()}.svg`}
+              src={`${process.env.PUBLIC_URL}/assets/traits/${e.toLowerCase()}.svg`}
               alt={e}
               style={{ width: 28, height: 28, marginBottom: 4 }}
             />
-            <label style={{ fontSize: "12px", marginBottom: "2px" }}>{e}</label>
+            <label style={{ fontSize: "12px", marginBottom: "2px" }}>
+              {e}
+            </label>
             <input
               type="number"
               value={selectedEmblems[e] === 0 ? "" : selectedEmblems[e]}
               onChange={(ev) => {
-                const val = ev.target.value === "" ? 0 : parseInt(ev.target.value) || 0;
+                const val =
+                  ev.target.value === ""
+                    ? 0
+                    : parseInt(ev.target.value, 10) || 0;
                 updateEmblem(e, val);
               }}
               style={{
                 width: "45px",
                 textAlign: "center",
-                /* remove number input arrows */
                 MozAppearance: "textfield",
               }}
-              onKeyDown={(e) => e.key === "e" && e.preventDefault()} // prevent "e" for scientific notation
             />
           </div>
         ))}
       </div>
 
-      <div style={{ display: "flex", gap: "15px" }}>
-        <div style={{ display: "flex", flexDirection: "column", minWidth: "80px" }}>
-          <label style={{ fontSize: "12px", marginBottom: "2px" }}>Max Cost</label>
+      <div
+        style={{
+          display: "flex",
+          gap: "15px",
+          justifyContent: "center",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            minWidth: "80px",
+            alignItems: "center",
+          }}
+        >
+          <label style={{ fontSize: "12px", marginBottom: "2px" }}>
+            Max Unit Cost
+          </label>
           <input
             type="number"
             min={1}
-            value={maxCost}
-            onChange={(ev) => updateMaxCost(parseInt(ev.target.value) || 1)}
-            style={{ width: "60px" }}
+            value={maxCostInput}
+            onChange={(ev) => updateMaxCost(ev.target.value)}
+            style={{
+              width: "60px",
+              textAlign: "center",
+              MozAppearance: "textfield",
+            }}
           />
         </div>
-        <div style={{ display: "flex", flexDirection: "column", minWidth: "80px" }}>
-          <label style={{ fontSize: "12px", marginBottom: "2px" }}>Max Size</label>
+
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            minWidth: "80px",
+            alignItems: "center",
+          }}
+        >
+          <label style={{ fontSize: "12px", marginBottom: "2px" }}>
+            Max Team Size
+          </label>
           <input
             type="number"
             min={1}
-            value={maxSize}
-            onChange={(ev) => updateMaxSize(parseInt(ev.target.value) || 1)}
-            style={{ width: "60px" }}
+            value={maxSizeInput}
+            onChange={(ev) => updateMaxSize(ev.target.value)}
+            style={{
+              width: "60px",
+              textAlign: "center",
+              MozAppearance: "textfield",
+            }}
           />
         </div>
+      </div>
+
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <button
+          onClick={onSolve}
+          disabled={isSolveDisabled}
+          style={{
+            marginTop: "8px",
+            padding: "8px 15px",
+            opacity: isSolveDisabled ? 0.6 : 1,
+            cursor: isSolveDisabled ? "not-allowed" : "pointer",
+          }}
+          title={
+            isSolveDisabled
+              ? "Enter valid values: cost 1–5 and team size 1–10"
+              : "Solve"
+          }
+        >
+          Solve
+        </button>
       </div>
     </div>
   );

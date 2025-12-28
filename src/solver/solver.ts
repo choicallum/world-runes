@@ -50,7 +50,7 @@ const MULTI_REGION_UNITS: MultiRegionUnit[] = [
 /* =========================
     Data
 ========================= */
-const emblemTraits: Trait[] = traitJson.filter(trait => trait.hasEmblem);
+const emblemTraits: Trait[] = traitJson.filter(trait => trait.hasEmblem).sort((a, b) => a.name.localeCompare(b.name));
 export const emblems: Record<string, number> = Object.fromEntries(
     emblemTraits.map(trait => [trait.name, 0])
 );
@@ -145,7 +145,7 @@ export function solve(
             let solution = canSatisfy(required, maxCost);
             if (solution && solution.length <= size) {
                 resultsMap[subsetKey] = solution;
-                continue;
+                break; // stop searching larger sizes once a valid solution is found
             }
             // if not possible, try multitrait units
             const required_copy = { ...required };
@@ -164,7 +164,7 @@ export function solve(
             solution = canSatisfy(required_copy, maxCost, multiUnitKeys);
             if (solution && solution.length <= size) {
                 resultsMap[subsetKey] = solution;
-                continue;
+                break; // found a valid solution for this subset
             }
             // if not possible, up the team size
         }
